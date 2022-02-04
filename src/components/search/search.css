@@ -1,0 +1,95 @@
+.searchInputs {
+    margin-top: 105px;
+    display: flex;
+  }
+  
+  .search input {
+    background-color: white;
+    border: 0;
+    border-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 18px;
+    padding: 15px;
+    height: 30px;
+    width: 300px;
+  }
+  
+  .searchIcon {
+    height: 60px;
+    width: 50px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  .searchIcon svg {
+    font-size: 35px;
+  }
+  
+  .dataResult {
+    margin-top: 5px;
+    /* width: 350px; */
+    height: 300px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow:scroll;
+    overflow-y:scroll;
+  }
+  
+  .NodataResult {
+    margin-top: 5px;
+    /* width: 350px; */
+    /* height: 300px; */
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+
+  /* .dataResult::-webkit-scrollbar {
+    display: none;
+  } */
+  
+  .dataResult .dataItem {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+  
+  .dataItem p {
+    margin-left: 10px;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: lightgrey;
+  }
+  
+  #clearBtn {
+    cursor: pointer;
+  }
+.card-style{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+} 
+.card-style:hover{
+  color: red;
+}
+.user-id{
+  font-size: 22px;
+}
+.user-name{
+  font-size: 20px;
+}
+.user-address{
+  margin-top: 0;
+}
