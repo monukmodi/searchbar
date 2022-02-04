@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/searchbar/static/css/main.4ae64c28.css",
+    "main.js": "/searchbar/static/js/main.91db9bc8.js",
+    "index.html": "/searchbar/index.html",
+    "main.4ae64c28.css.map": "/searchbar/static/css/main.4ae64c28.css.map",
+    "main.91db9bc8.js.map": "/searchbar/static/js/main.91db9bc8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ae64c28.css",
+    "static/js/main.91db9bc8.js"
+  ]
+}
